@@ -59,11 +59,13 @@ const App = () => {
 
   return (
     <main className='container-fluid'>
-      <img src='./assets/bg4.jpg' alt='bg4'/>
+    <div className="bg1">
+      <img src='./assets/bg4.jpg'  alt='bg4'/>
+      </div>
     <div className='section-1'>
     <div className='logo'>
         <img src='./assets/logo2.png' />
-      </div>
+    </div>
      
       <h1>We are Coming Soon...</h1>
      
@@ -80,7 +82,7 @@ const App = () => {
         <button className='notify-button'>Notify Me!</button>
       </div>
     </div>
-    
+   
     </main>
   )
 }

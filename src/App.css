@@ -9,10 +9,10 @@
   align-items: center;
   color: white;
 }
-.container img{
-  height: 100%!important;
-  width: 100%;
+.bg1 img{
+  width: 100%!important;
 }
+
 .logo{
   position: absolute;
   margin-bottom: 20%;
@@ -24,7 +24,7 @@
   left: 55px;
 }
 .logo img{
-  width: 55%;
+  width:55%;
 }
 .section-1{
   position: absolute;
@@ -71,4 +71,10 @@
   margin-bottom: 50px;
   font-size: 30px;
   color: white;
+}
+
+@media (max-width: 1058px) {
+  .bg1 img {
+   height:60rem;
+  }
 }
